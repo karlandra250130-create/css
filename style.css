@@ -1108,32 +1108,20 @@ footer{
   padding: 0;
 }
 
+
+
 .table_ {
-  background-color:#943634;
+    background-color: #273777;
   border-collapse: collapse;
   border-spacing: 2px;
   display: table;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 3.55pt;
-  margin-top: 0;
-  text-indent: 0;
-  width: 432pt;
+  margin: 0 auto;      /* centra la tabla */
+  width: 80%;         /* ocupa todo el ancho disponible */
+  max-width: 900pt;    /* controla el ancho máximo */
+
+  line-height: 1.2;    /* se mantiene igual (no más alta) */
   padding: 0;
-  border: #273777 solid 2pt;
-}
-table_ {
-  background-color: #273777;
-  border-collapse: collapse;
-  border-spacing: 2px;
-  display: table;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 3.55pt;
-  margin-top: 0;
   text-indent: 0;
-  width: 432pt;
-  padding: 0;
   border: #943634 solid 1pt;
 }
 .table_1 {
@@ -1141,11 +1129,10 @@ table_ {
   border-collapse: collapse;
   border-spacing: 2px;
   display: table;
-  float: left;
   line-height: 1.2;
   text-indent: 0;
-  width: 436pt;
-  margin: 0 7.05pt;
+  width: 100%;
+  margin: 0 auto;
   padding: 0;
   border: #000 solid 1pt;
 }
@@ -1155,9 +1142,7 @@ table_ {
   border-spacing: 2px;
   display: table;
   line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: -1.7pt;
-  margin-top: 0;
+  margin: auto;
   text-indent: 0;
   width: 439pt;
   padding: 0;
@@ -1169,9 +1154,7 @@ table_ {
   border-spacing: 2px;
   display: table;
   line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: -1.7pt;
-  margin-top: 0;
+  margin: auto;
   text-indent: 0;
   width: 439pt;
   padding: 0;
@@ -1186,9 +1169,7 @@ table_ {
   border-spacing: 2px;
   display: table;
   line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: -1.7pt;
-  margin-top: 0;
+  margin: auto;
   text-indent: 0;
   width: 439pt;
   padding: 0;
@@ -1207,8 +1188,7 @@ table_ {
   border-spacing: 0;
   display: table;
   line-height: 1.2;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: auto;
   text-indent: 0;
   padding: 0;
   border: #AAA solid 1pt;
@@ -1219,21 +1199,19 @@ table_ {
   border-spacing: 2px;
   display: table;
   line-height: 1.2;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: auto;
   text-indent: 0;
+  width: 100%;
   padding: 0;
   border: #000 solid 1pt;
 }
 .td_ {
   background-color: #273777;
   display: table-cell;
-  line-height: 1.2;
-  text-align: inherit;
   vertical-align: top;
-  width: 432pt;
-  padding: 0.5ex 3.55pt;
+  padding: 0.5ex 6pt;  /* mismo alto, un poco más de ancho */
   border-bottom: #943634 solid 1pt;
+  color: #ffffff;
 }
 .td_1 {
   background-color: #273777;
@@ -1444,4 +1422,3 @@ table_ {
   margin: 1pt 0;
   padding: 0;
 }
-
