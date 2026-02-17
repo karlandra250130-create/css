@@ -1,0 +1,176 @@
+
+/* Header azul que abarque pagina */
+header{
+    background-color: #273777;
+    color: white;
+    position: relative;
+    display: flex;
+   align-items: center;
+    padding: 20px 20px;
+    margin: 0px; 
+}
+/* Letra titulo header y portada*/
+h2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2em;
+  font-weight: bold;
+  font-family: serif;
+  margin: 0;
+
+}
+
+/*Letra portada info*/
+h5{
+  display: block;
+  font-size: 1.125em;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.lig{
+  display: block;
+  font-size: 1.41667em;
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+/* Tamaño logo portada */
+.pl{
+  height: 173pt;
+  line-height: 1.2;
+  width: 144pt;
+}
+
+/* Estilo para listas portada*/
+ul.p {
+  display: block;
+  max-width: 432pt;
+  margin: 30px auto;
+  padding-left: 20pt; 
+  font-weight: 100;
+  font-size: 0.85em;
+  line-height: 1.4;
+  text-align: justify;     
+
+}
+/* negrita*/
+.b{
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+
+/* imagen logo para header */
+.calibre0{
+  filter: brightness(0) invert(1);
+  width: 130px;
+  height: auto;
+  margin-left: 15px;
+}
+
+/* final de la pagina azul*/
+footer{
+    background-color: #273777;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 0px;   
+}
+/* Parrafos justificados */
+p {
+    text-align: justify;
+    text-justify: inter-word; 
+          
+}
+/* Cuerpo con margen */
+body{
+     text-align: justify;
+     margin: 50px;
+}
+/* h1 para indice */
+h1{
+    text-align: center;
+    text-indent: 0; 
+    page-break-after: avoid;
+}
+/* h3 para letra de introducción*/  
+h3{
+  color: #FFF;
+  display: block;
+  font-size: 0.75em;
+  font-weight: bold;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 24pt 0 0;
+  padding: 0;
+}
+/* h4  para nombre de materia */
+h4{
+  color: #FFF;
+  display: block;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: justify;
+  margin: 1pt 0;
+  padding: 0;
+}
+
+/* Tablas para asignaturas, unidades e introduccion*/
+.td_uni{
+  background-color: #273777;
+  border-collapse: collapse;
+  width: 100%; 
+  max-width: 432pt;
+  margin: auto;
+  border: 1pt solid #943634;
+  line-height: 1.2;
+
+}
+/*  borde para las materias*/
+.border{
+  background-color: #273777;
+  border: 1pt solid #943634; 
+  vertical-align: top;
+  padding: 5px 3.55pt; 
+  color: white; 
+}
+/* Borde para las unidades */
+.border.b{
+  border: 2.5pt solid #943634; 
+  
+}
+/* alinear los textos al centro */
+.align{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Color blanco a los textos que vayan dento de cuadros oscuros */
+.w{
+    color: #FFF;
+    
+}
+
+/* Estilo para tablas con informacion educativa */
+
+/* Imagenes centradas */
+img{
+  display: block;    
+  margin-left: auto; 
+  margin-right: auto;
+  max-width: 100%;  
+  height: auto;
+}
