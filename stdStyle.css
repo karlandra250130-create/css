@@ -1,4 +1,3 @@
-
 /* Header azul que abarque pagina */
 header{
     background-color: #273777;
@@ -11,34 +10,79 @@ header{
 }
 /* Letra titulo header y portada*/
 h2 {
+  display: block;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 2em;
-  font-weight: bold;
-  font-family: serif;
+  font-family: Garamond, serif;
+  font-size: 2.5em;
   margin: 0;
+  display: block;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#uni{
+  display: block;
+  font-size: 2.3em;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 
 }
 
 /*Letra portada info*/
 h5{
   display: block;
-  font-size: 1.125em;
+  font-size: 2em;
   font-weight: bold;
   line-height: 1.2;
   text-align: center;
+  font-style: italic;
   margin: 0;
   padding: 0;
 }
 .lig{
   display: block;
-  font-size: 1.41667em;
+  font-size: 2.5em;
   font-style: italic;
   line-height: 1.2;
   text-align: center;
   margin: 0;
   padding: 0;
+
+}
+
+h6{
+  display: block;
+  font-family: serif;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+#inf{
+  display: block;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  border-bottom: currentColor solid 1.5pt;
+}
+.linfo{
+  display: block;
+  font-size: 1.4em;
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  
 
 }
 /* Tamaño logo portada */
@@ -52,10 +96,10 @@ h5{
 ul.p {
   display: block;
   max-width: 432pt;
-  margin: 30px auto;
+  margin: 10px auto;
   padding-left: 20pt; 
   font-weight: 100;
-  font-size: 0.85em;
+  font-size: 1.1em;
   line-height: 1.4;
   text-align: justify;     
 
