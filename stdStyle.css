@@ -1,3 +1,4 @@
+
 /* Header azul que abarque pagina */
 header{
     background-color: #273777;
@@ -48,16 +49,18 @@ h5{
 }
 .lig{
   display: block;
-  font-size: 2.5em;
-  font-style: italic;
+  font-size: 2em;
   line-height: 1.2;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 200; 
   margin: 0;
   padding: 0;
 
 }
-
-h6{
+/*Tipo de material de estudio: guia, antologia etc*/
+.mat{
   display: block;
   font-family: serif;
   font-size: 1.5em;
@@ -77,6 +80,7 @@ h6{
 .linfo{
   display: block;
   font-size: 1.4em;
+  font-family: "Poppins", sans-serif;
   font-style: italic;
   line-height: 1.2;
   text-align: center;
@@ -93,8 +97,8 @@ h6{
 }
 
 /* Estilo para listas portada*/
-ul.p {
-  display: block;
+.ulp {
+  
   max-width: 432pt;
   margin: 10px auto;
   padding-left: 20pt; 
@@ -119,7 +123,7 @@ ul.p {
   margin-left: 15px;
 }
 
-/* final de la pagina azul*/
+/* final de la pagina: azul*/
 footer{
     background-color: #273777;
     color: white;
@@ -129,12 +133,8 @@ footer{
     padding: 20px 20px;
     margin: 0px;   
 }
-/* Parrafos justificados */
-p {
-    text-align: justify;
-    text-justify: inter-word; 
-          
-}
+/* Estilo de texto y formato para texto */
+
 /* Cuerpo con margen */
 body{
      text-align: justify;
@@ -143,11 +143,22 @@ body{
 }
 /* h1 para indice */
 h1{
-    text-align: center;
+    text-align: justify;
+    font-family: "Garamond", "Times New Roman", serif;
+    font-size: 1em;
     text-indent: 0; 
     page-break-after: avoid;
 }
-/* h3 para letra de introducción*/  
+h1.tisub{
+    text-align: justify;
+    font-family: "Garamond", "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 1.05em;
+    text-indent: 0; 
+    page-break-after: avoid;
+}
+
+/* h3 para letra de introducción y referencias*/  
 h3{
   color: #FFF;
   display: block;
@@ -160,11 +171,12 @@ h3{
   margin: 24pt 0 0;
   padding: 0;
 }
-/* h4  para nombre de materia */
+/* h4  para nombre de materia, obejetivo, etc */
 h4{
   color: #FFF;
   display: block;
-  font-weight: bold;
+  font-weight: 400;
+  font-family: "Garamond", "Times New Roman", serif;
   line-height: 1.2;
   text-align: justify;
   margin: 1pt 0;
@@ -190,6 +202,9 @@ h4{
   padding: 5px 3.55pt; 
   color: white; 
 }
+.nobd{
+  border: 1pt solid #273777 ;
+}
 /* Borde para las unidades */
 .border.b{
   border: 2.5pt solid #943634; 
@@ -209,7 +224,46 @@ h4{
     
 }
 
+/* Parrafos justificados */
+p {
+  text-align: justify;
+  text-justify: inter-word; 
+  display: block;
+  line-height: 1.2;
+  font-family: "Garamond", "Times New Roman", serif;
+  font-size: 0.99em;
+  margin: 0;
+  padding: 0;        
+}
+
+/*Estilo de letra en listas y span*/
+ul{
+  text-align: justify;
+  text-justify: inter-word; 
+  display: block;
+  line-height: 1.2;
+  font-family: "Garamond", "Times New Roman", serif;
+  font-size: 0.95em;
+  margin: 0;
+  padding: 0; 
+}
+span{
+  text-align: justify;
+  text-justify: inter-word; 
+  display: block;
+  line-height: 1.2;
+  font-family: "Garamond", "Times New Roman", serif;
+  font-size: 0.95em;
+  margin: 0;
+  padding: 0;
+}
 /* Estilo para tablas con informacion educativa */
+table{
+  border-collapse: collapse;
+}
+td, tr{
+  border: 0.2px solid black;
+}
 
 /* Imagenes centradas */
 img{
@@ -218,4 +272,28 @@ img{
   margin-right: auto;
   max-width: 100%;  
   height: auto;
+}
+
+/* titulos y subtitulos */
+/* h6 para titulos y sub Subtitulo*/
+h6{
+  text-align: justify;
+  text-justify: inter-word; 
+  display: block;
+  line-height: 1.2;
+  font-family: "Garamond", "Times New Roman", serif;
+  font-size: 0.90em;
+  margin: 0;
+  padding: 0;        
+}
+
+h6.sub{
+  text-align: justify;
+  text-justify: inter-word; 
+  display: block;
+  line-height: 1.2;
+  font-family: "Garamond", "Times New Roman", serif;
+  font-size: 0.80em;
+  margin: 0;
+  padding: 0;
 }
